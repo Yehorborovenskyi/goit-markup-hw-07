@@ -1,0 +1,82 @@
+
+.team{
+    background: #f5f4fa;
+}
+
+.team-caption {
+    margin-bottom: 50px;
+
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team-card {
+    display: flex;
+}
+
+
+.team-card__item {
+    background-color: var(--accent-text-color);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+
+    &:not(:last-child){
+            margin-right: 30px;
+    }
+}
+
+.team-card__meta {
+    padding-top: 30px;
+}
+
+.team-card__name {
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+
+.team-card__profession {
+    color: var(--lead-text-color);
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+
+.team-contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 16px 32px 30px;
+}
+
+.team-contact__item {
+    width: 44px;
+    height: 44px;
+}
+
+.team-contact__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    fill: rgba(175, 177, 184, 1);
+    border-radius: 50%;
+    background-color: var(--accent-text-color);
+
+    &:hover,
+    &:focus {
+            fill: var(--accent-text-color);
+            background-color: rgba(33, 150, 243, 1);
+    }
+
+    transition: fill 250ms var(--function-time), background-color 250ms var(--function-time);
+}
