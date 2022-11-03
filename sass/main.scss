@@ -1,14 +1,17 @@
 @import "./base/normalize";
-@import "./base/base";
 
+@import "./utils/base";
 @import "./utils/variables";
 @import "./utils/placeholders";
 @import "./utils/utils";
 
+@import "./components/container";
+@import "./components/section";
 @import "./components/page-header";
 @import "./components/logo";
 @import "./components/order";
 @import "./components/modal-window";
+@import "./components/modal-form";
 @import "./components/skill";
 @import "./components/study";
 @import "./components/team";
