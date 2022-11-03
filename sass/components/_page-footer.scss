@@ -9,93 +9,6 @@
     align-items: baseline;
 }
 
-// box-communications
-
-.box-communications {
-    width: 231px;
-}
-
-.contact-footer {
-        margin-bottom: 9px;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 1.7;
-        letter-spacing: 0.03em;
-        color: var(--accent-color);
-
-        &:first-child {
-            margin-top: 20px;
-        }
-        &:last-child {
-            margin-bottom: 0px;
-        }
-
-  
-}
-.contact-footer__map {
-    color: var(--accent-text-color);
-    &:hover,
-    &:focus {
-        color: var(--hover-text-color);
-    }
-}
-
-.contact-footer__link {
-    color: var(--accent-color);
-    &:hover,
-    &:focus {
-        color: var(--hover-text-color);
-    }
-}
-
-// box-subscribe
-
-.box-subscribe {
-    margin-left: 70px;
-}
-
-.subscribe-caption {
-    color: var(--accent-text-color);
-    margin-bottom: 20px;
-    font-size: 14px;
-    line-height: 1.2;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-}
-
-.subscribe-set {
-    display: flex;
-    align-items: baseline;
-    justify-content: center;
-    gap: 10px;
-}
-
-.subscribe-set__item {
-    width: 44px;
-    height: 44px;
-}
-
-.subscribe-set__link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-    fill: var(--accent-text-color);
-    border-radius: 50%;
-    background-color: rgba(255, 255, 255, 0.1);
-
-    &:hover,
-    &:focus {
-        background-color: rgba(33, 150, 243, 1);
-    }
-
-    transition: background-color 250ms var(--function-time);
-}
-
-
-// box-spam
 
 .box-spam {
     margin-left: 93px;
@@ -111,8 +24,6 @@
     text-transform: uppercase;
     color: var(--accent-text-color);
 }
-
-
 
 .form-spam {
     display: flex;
@@ -140,34 +51,4 @@
             
                 color: rgba(255, 255, 255, 0.6);
     }
-}
-
-
-
-.form-spam__button {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    margin-left: 12px;
-    padding: 10px 28px;
-    width: 200px;
-    height: 50px;
-    cursor: pointer;
-
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.88;
-    letter-spacing: 0.06em;
-    color: var(--accent-text-color);
-    background: var(--hover-text-color);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    border-color: transparent;
-}
-
-.form-spam__icon {
-    margin-left: 12px;
-    width: 24px;
-    height: 24px;
-    fill: var(--accent-text-color);
 }

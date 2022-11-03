@@ -21,10 +21,10 @@
         <nav>
           <ul class="site-nav">
             <li class="site-nav__item">
-              <a class="site-nav__link site-nav__current" href="./index.html">Студія</a>
+              <a class="site-nav__link" href="./index.html">Студія</a>
             </li>
             <li class="site-nav__item">
-              <a class="site-nav__link" href="./portfolio.html">Портфоліо</a>
+              <a class="site-nav__link site-nav__current" href="./portfolio.html">Портфоліо</a>
             </li>
             <li class="site-nav__item"><a class="site-nav__link" href="#">Контакти</a></li>
           </ul>
@@ -54,20 +54,30 @@
     <main>
       <section class="section">
         <div class="container">
-          <ul class="btn-filtr">
-            <li class="button-filtr"><button type="button" class="filtr">Усі</button></li>
-            <li class="button-filtr"><button type="button" class="filtr">Веб-сайти</button></li>
-            <li class="button-filtr"><button type="button" class="filtr">Додатки</button></li>
-            <li class="button-filtr"><button type="button" class="filtr">Дизайн</button></li>
-            <li class="button-filtr"><button type="button" class="filtr">Маркетинг</button></li>
+          <ul class="filtr-set">
+            <li class="filtr-set__item">
+              <button type="button" class="filtr-set__button">Усі</button>
+            </li>
+            <li class="filtr-set__item">
+              <button type="button" class="filtr-set__button">Веб-сайти</button>
+            </li>
+            <li class="filtr-set__item">
+              <button type="button" class="filtr-set__button">Додатки</button>
+            </li>
+            <li class="filtr-set__item">
+              <button type="button" class="filtr-set__button">Дизайн</button>
+            </li>
+            <li class="filtr-set__item">
+              <button type="button" class="filtr-set__button">Маркетинг</button>
+            </li>
           </ul>
-          <ul class="flex-filtr">
-            <li class="filtr-card">
-              <a class="portfolio-card" href="#">
-                <div class="card-hiden">
+          <ul class="product-card">
+            <li class="product-card__item">
+              <a class="product-card__link" href="#">
+                <div class="product-card__icon">
                   <img class="image" src="./images/portfolio1.jpg" alt="Макбук" width="370" />
-                  <div class="card-overlay">
-                    <div class="text-overlay">
+                  <div class="overlay-card">
+                    <div class="overlay-card__text">
                       <p>
                         Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та
                         сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про
@@ -76,18 +86,18 @@
                     </div>
                   </div>
                 </div>
-                <div class="filtr-text">
-                  <h3 class="filtr-title">Технокряк</h3>
-                  <p class="filtr-item">Веб-сайт</p>
+                <div class="product-card__box">
+                  <h3 class="product-card__name">Технокряк</h3>
+                  <p class="product-card__filtr">Веб-сайт</p>
                 </div>
               </a>
             </li>
-            <li class="filtr-card">
-              <a class="portfolio-card" href="#"
-                ><div class="card-hiden">
+            <li class="product-card__item">
+              <a class="product-card__link" href="#"
+                ><div class="product-card__icon">
                   <img class="image" src="./images/portfolio2.jpg" alt="Макбук" width="370" />
-                  <div class="card-overlay">
-                    <div class="text-overlay">
+                  <div class="overlay-card">
+                    <div class="overlay-card__text">
                       <p>
                         Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та
                         сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про
@@ -96,18 +106,18 @@
                     </div>
                   </div>
                 </div>
-                <div class="filtr-text">
-                  <h3 class="filtr-title">Постер New Orlean vs Golden Star</h3>
-                  <p class="filtr-item">Дизайн</p>
+                <div class="product-card__box">
+                  <h3 class="product-card__name">Постер New Orlean vs Golden Star</h3>
+                  <p class="product-card__filtr">Дизайн</p>
                 </div></a
               >
             </li>
-            <li class="filtr-card">
-              <a class="portfolio-card" href="#"
-                ><div class="card-hiden">
+            <li class="product-card__item">
+              <a class="product-card__link" href="#"
+                ><div class="product-card__icon">
                   <img class="image" src="./images/portfolio3.jpg" alt="Макбук" width="370" />
-                  <div class="card-overlay">
-                    <div class="text-overlay">
+                  <div class="overlay-card">
+                    <div class="overlay-card__text">
                       <p>
                         Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та
                         сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про
@@ -116,18 +126,18 @@
                     </div>
                   </div>
                 </div>
-                <div class="filtr-text">
-                  <h3 class="filtr-title">Ресторан Seafood</h3>
-                  <p class="filtr-item">Додаток</p>
+                <div class="product-card__box">
+                  <h3 class="product-card__name">Ресторан Seafood</h3>
+                  <p class="product-card__filtr">Додаток</p>
                 </div></a
               >
             </li>
-            <li class="filtr-card">
-              <a class="portfolio-card" href="#">
-                <div class="card-hiden">
+            <li class="product-card__item">
+              <a class="product-card__link" href="#">
+                <div class="product-card__icon">
                   <img class="image" src="./images/portfolio4.jpg" alt="Макбук" width="370" />
-                  <div class="card-overlay">
-                    <div class="text-overlay">
+                  <div class="overlay-card">
+                    <div class="overlay-card__text">
                       <p>
                         Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та
                         сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про
@@ -136,18 +146,18 @@
                     </div>
                   </div>
                 </div>
-                <div class="filtr-text">
-                  <h3 class="filtr-title">Проєкт Prime</h3>
-                  <p class="filtr-item">Маркетинг</p>
+                <div class="product-card__box">
+                  <h3 class="product-card__name">Проєкт Prime</h3>
+                  <p class="product-card__filtr">Маркетинг</p>
                 </div></a
               >
             </li>
-            <li class="filtr-card">
-              <a class="portfolio-card" href="#"
-                ><div class="card-hiden">
+            <li class="product-card__item">
+              <a class="product-card__link" href="#"
+                ><div class="product-card__icon">
                   <img class="image" src="./images/portfolio5.jpg" alt="Макбук" width="370" />
-                  <div class="card-overlay">
-                    <div class="text-overlay">
+                  <div class="overlay-card">
+                    <div class="overlay-card__text">
                       <p>
                         Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та
                         сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про
@@ -156,18 +166,18 @@
                     </div>
                   </div>
                 </div>
-                <div class="filtr-text">
-                  <h3 class="filtr-title">Проєкт Boxes</h3>
-                  <p class="filtr-item">Додаток</p>
+                <div class="product-card__box">
+                  <h3 class="product-card__name">Проєкт Boxes</h3>
+                  <p class="product-card__filtr">Додаток</p>
                 </div></a
               >
             </li>
-            <li class="filtr-card">
-              <a class="portfolio-card" href="#"
-                ><div class="card-hiden">
+            <li class="product-card__item">
+              <a class="product-card__link" href="#"
+                ><div class="product-card__icon">
                   <img class="image" src="./images/portfolio6.jpg" alt="Макбук" width="370" />
-                  <div class="card-overlay">
-                    <div class="text-overlay">
+                  <div class="overlay-card">
+                    <div class="overlay-card__text">
                       <p>
                         Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та
                         сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про
@@ -176,18 +186,18 @@
                     </div>
                   </div>
                 </div>
-                <div class="filtr-text">
-                  <h3 class="filtr-title">Inspiration has no Borders</h3>
-                  <p class="filtr-item">Веб-сайт</p>
+                <div class="product-card__box">
+                  <h3 class="product-card__name">Inspiration has no Borders</h3>
+                  <p class="product-card__filtr">Веб-сайт</p>
                 </div></a
               >
             </li>
-            <li class="filtr-card">
-              <a class="portfolio-card" href="#"
-                ><div class="card-hiden">
+            <li class="product-card__item">
+              <a class="product-card__link" href="#"
+                ><div class="product-card__icon">
                   <img class="image" src="./images/portfolio7.jpg" alt="Макбук" width="370" />
-                  <div class="card-overlay">
-                    <div class="text-overlay">
+                  <div class="overlay-card">
+                    <div class="overlay-card__text">
                       <p>
                         Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та
                         сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про
@@ -196,18 +206,18 @@
                     </div>
                   </div>
                 </div>
-                <div class="filtr-text">
-                  <h3 class="filtr-title">Видання Limited Edition</h3>
-                  <p class="filtr-item">Дизайн</p>
+                <div class="product-card__box">
+                  <h3 class="product-card__name">Видання Limited Edition</h3>
+                  <p class="product-card__filtr">Дизайн</p>
                 </div></a
               >
             </li>
-            <li class="filtr-card">
-              <a class="portfolio-card" href="#"
-                ><div class="card-hiden">
+            <li class="product-card__item">
+              <a class="product-card__link" href="#"
+                ><div class="product-card__icon">
                   <img class="image" src="./images/portfolio8.jpg" alt="Макбук" width="370" />
-                  <div class="card-overlay">
-                    <div class="text-overlay">
+                  <div class="overlay-card">
+                    <div class="overlay-card__text">
                       <p>
                         Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та
                         сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про
@@ -216,18 +226,18 @@
                     </div>
                   </div>
                 </div>
-                <div class="filtr-text">
-                  <h3 class="filtr-title">Проєкт LAB</h3>
-                  <p class="filtr-item">Маркетинг</p>
+                <div class="product-card__box">
+                  <h3 class="product-card__name">Проєкт LAB</h3>
+                  <p class="product-card__filtr">Маркетинг</p>
                 </div></a
               >
             </li>
-            <li class="filtr-card">
-              <a class="portfolio-card" href="#"
-                ><div class="card-hiden">
+            <li class="product-card__item">
+              <a class="product-card__link" href="#"
+                ><div class="product-card__icon">
                   <img class="image" src="./images/portfolio9.jpg" alt="Макбук" width="370" />
-                  <div class="card-overlay">
-                    <div class="text-overlay">
+                  <div class="overlay-card">
+                    <div class="overlay-card__text">
                       <p>
                         Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та
                         сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про
@@ -236,9 +246,9 @@
                     </div>
                   </div>
                 </div>
-                <div class="filtr-text">
-                  <h3 class="filtr-title">Growing Business</h3>
-                  <p class="filtr-item">Додаток</p>
+                <div class="product-card__box">
+                  <h3 class="product-card__name">Growing Business</h3>
+                  <p class="product-card__filtr">Додаток</p>
                 </div></a
               >
             </li>

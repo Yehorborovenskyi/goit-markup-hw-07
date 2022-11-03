@@ -1,37 +1,33 @@
 .clients-caption {
-    margin-bottom: 50px;
-
-    font-size: 36px;
-    line-height: 1.2;
-    text-align: center;
-    letter-spacing: 0.03em;
+    @extend %caption
+    
 }
 
 .clients-set {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend %flex-center;
     gap: 30px;
+    
 }
 
 .clients-set__icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @extend %flex-center;
     width: 170px;
     height: 92px;
     fill: rgba(175, 177, 184, 1);
     border-radius: 4px;
     border: 1px solid #afb1b8;
+    cursor: pointer;
+    
 
     &:hover,
     &:focus {
             fill: rgba(33, 150, 243, 1);
             border: 1px solid #2196f3;
     }
-    &:focus .clients-set__link, &:hover .clients-set__link {
+    &:focus,
+    &:hover .clients-set__link {
             fill: rgba(33, 150, 243, 1);
-    }
+        }
     
     transition: fill 250ms var(--function-time), border 250ms var(--function-time);
 }

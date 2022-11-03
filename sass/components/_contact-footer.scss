@@ -1,0 +1,41 @@
+.box-communications {
+    width: 231px;
+}
+
+.contact-footer {
+    margin-bottom: 9px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+
+    &:first-child {
+        margin-top: 20px;
+    }
+
+    &:last-child {
+        margin-bottom: 0px;
+    }
+
+
+}
+
+.contact-footer__map {
+    color: var(--accent-text-color);
+
+    &:hover,
+    &:focus {
+        color: var(--hover-text-color);
+    }
+}
+
+.contact-footer__link {
+    color: var(--accent-color);
+
+    &:hover,
+    &:focus {
+        color: var(--hover-text-color);
+    }
+}
