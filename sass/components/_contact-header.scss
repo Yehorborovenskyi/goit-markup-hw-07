@@ -1,0 +1,43 @@
+.site-contact {
+    display: flex;
+    margin-left: auto;
+}
+
+.site-contact__item:not(:last-child) {
+    margin-right: 50px;
+}
+
+.site-contact__link {
+    display: flex;
+    align-items: center;
+
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+    color: var(--lead-text-color);
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    transition: color 250ms var(--function-time);
+
+    &:hover,
+    &:focus {
+        color: var(--hover-text-color);
+    }
+}
+
+
+
+.site-contact__icon {
+    display: flex;
+    margin-right: 10px;
+    fill: currentColor;
+
+    &:hover,
+    &:focus {
+        fill: var(--hover-text-color);
+    }
+}

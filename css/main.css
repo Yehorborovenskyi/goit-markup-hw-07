@@ -387,6 +387,23 @@ ul {
           align-items: center;
 }
 
+.main-logo__link {
+  color: var(--hover-text-color);
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+.main-logo__header {
+  color: var(--logo-text-color);
+}
+
+.main-logo__footer {
+  color: var(--accent-text-color);
+}
+
 .site-nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -458,23 +475,6 @@ ul {
 }
 .site-contact__icon:hover, .site-contact__icon:focus {
   fill: var(--hover-text-color);
-}
-
-.main-logo__link {
-  color: var(--hover-text-color);
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.2;
-  letter-spacing: 0.03em;
-}
-
-.main-logo__header {
-  color: var(--logo-text-color);
-}
-
-.main-logo__footer {
-  color: var(--accent-text-color);
 }
 
 .page-order {
@@ -1123,6 +1123,49 @@ ul {
   background-color: rgb(24, 140, 232);
 }
 
+.filtr-set {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 50px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.filtr-set__item:not(:last-child) {
+  margin-right: 8px;
+}
+
+.filtr-set__button {
+  display: inline-block;
+  padding: 6px 22px;
+  color: inherit;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background: #f5f4fa;
+  border-radius: 4px;
+  border-color: transparent;
+  -webkit-transition: color 250ms var(--function-time), background-color 250ms var(--function-time), -webkit-box-shadow 250ms var(--function-time);
+  transition: color 250ms var(--function-time), background-color 250ms var(--function-time), -webkit-box-shadow 250ms var(--function-time);
+  transition: color 250ms var(--function-time), background-color 250ms var(--function-time), box-shadow 250ms var(--function-time);
+  transition: color 250ms var(--function-time), background-color 250ms var(--function-time), box-shadow 250ms var(--function-time), -webkit-box-shadow 250ms var(--function-time);
+}
+.filtr-set__button:hover, .filtr-set__button:focus {
+  color: var(--accent-text-color);
+  background-color: var(--hover-text-color);
+  -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+          box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
 .product-card {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1206,47 +1249,4 @@ ul {
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
-}
-
-.filtr-set {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-bottom: 50px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.filtr-set__item:not(:last-child) {
-  margin-right: 8px;
-}
-
-.filtr-set__button {
-  display: inline-block;
-  padding: 6px 22px;
-  color: inherit;
-  cursor: pointer;
-  font-family: inherit;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.6;
-  text-align: center;
-  letter-spacing: 0.03em;
-  background: #f5f4fa;
-  border-radius: 4px;
-  border-color: transparent;
-  -webkit-transition: color 250ms var(--function-time), background-color 250ms var(--function-time), -webkit-box-shadow 250ms var(--function-time);
-  transition: color 250ms var(--function-time), background-color 250ms var(--function-time), -webkit-box-shadow 250ms var(--function-time);
-  transition: color 250ms var(--function-time), background-color 250ms var(--function-time), box-shadow 250ms var(--function-time);
-  transition: color 250ms var(--function-time), background-color 250ms var(--function-time), box-shadow 250ms var(--function-time), -webkit-box-shadow 250ms var(--function-time);
-}
-.filtr-set__button:hover, .filtr-set__button:focus {
-  color: var(--accent-text-color);
-  background-color: var(--hover-text-color);
-  -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-          box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }/*# sourceMappingURL=main.css.map */
