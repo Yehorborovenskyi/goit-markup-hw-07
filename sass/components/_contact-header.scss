@@ -14,18 +14,18 @@
     padding-top: 32px;
     padding-bottom: 32px;
 
-    color: var(--lead-text-color);
-    font-family: inherit;
+    color: $gray-main-color;
+    font-family: $main-fonts;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
 
-    transition: color 250ms var(--function-time);
+    transition: color 250ms $main-bezier;
 
     &:hover,
     &:focus {
-        color: var(--hover-text-color);
+        color: $blue-color;
     }
 }
 
@@ -38,6 +38,6 @@
 
     &:hover,
     &:focus {
-        fill: var(--hover-text-color);
+        fill: $blue-color;
     }
 }

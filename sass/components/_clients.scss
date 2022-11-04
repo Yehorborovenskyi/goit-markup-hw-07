@@ -13,30 +13,30 @@
     @extend %flex-center;
     width: 170px;
     height: 92px;
-    fill: rgba(175, 177, 184, 1);
+    fill: $gray-contact-color;
     border-radius: 4px;
-    border: 1px solid #afb1b8;
+    border: 1px solid $gray-contact-color;
     cursor: pointer;
     
 
     &:hover,
     &:focus {
-            fill: rgba(33, 150, 243, 1);
-            border: 1px solid #2196f3;
+            fill: $blue-color;
+            border: 1px solid $blue-color;
     }
     &:focus,
     &:hover .clients-set__link {
-            fill: rgba(33, 150, 243, 1);
+            fill: $blue-color;
         }
     
-    transition: fill 250ms var(--function-time), border 250ms var(--function-time);
+    transition: fill 250ms $main-bezier, border 250ms $main-bezier;
 }
 
 
 
 .clients-set__link {
-    fill: rgba(175, 177, 184, 1);
+    fill: $gray-contact-color;
 
-    transition: fill 250ms var(--function-time);
+    transition: fill 250ms $main-bezier;
 }
 

@@ -27,7 +27,7 @@
     bottom: 0;
     width: 100%;
     height: 70px;
-    background-color: rgba(47, 48, 58, 0.8);
+    background-color: $bg-color-study;
 }
 
 .product-set__text {
@@ -40,5 +40,5 @@
     line-height: 1.2;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--accent-text-color);
+    color: $white-color;
 }

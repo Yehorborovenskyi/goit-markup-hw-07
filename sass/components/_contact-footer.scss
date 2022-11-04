@@ -9,7 +9,7 @@
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
-    color: var(--accent-color);
+    color: $white-opacity-color;
 
     &:first-child {
         margin-top: 20px;
@@ -23,19 +23,19 @@
 }
 
 .contact-footer__map {
-    color: var(--accent-text-color);
+    color: $white-color;
 
     &:hover,
     &:focus {
-        color: var(--hover-text-color);
+        color: $blue-color;
     }
 }
 
 .contact-footer__link {
-    color: var(--accent-color);
+    color: $white-opacity-color;
 
     &:hover,
     &:focus {
-        color: var(--hover-text-color);
+        color: $blue-color;
     }
 }

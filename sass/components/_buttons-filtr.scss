@@ -14,25 +14,24 @@
 
     color: inherit;
     cursor: pointer;
-    font-family: inherit;
+    font-family: $main-fonts;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
     text-align: center;
     letter-spacing: 0.03em;
 
-    background: #f5f4fa;
+    background: $white-btn-filtr-color;
     border-radius: 4px;
     border-color: transparent;
 
-    transition: color 250ms var(--function-time), background-color 250ms var(--function-time),
-        box-shadow 250ms var(--function-time);
+    transition: color 250ms $main-bezier, background-color 250ms $main-bezier,
+        box-shadow 250ms $main-bezier;
 
         &:hover,
         &:focus {
-                color: var(--accent-text-color);
-                background-color: var(--hover-text-color);
-                box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-                    0px 2px 2px rgba(0, 0, 0, 0.12);
+                color: $white-color ;
+                background-color: $blue-color;
+                box-shadow: $box-shadow-btn-filtr;
             }
 }

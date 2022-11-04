@@ -1,7 +1,7 @@
 body {
-    color: var(--main-text-color);
-    font-family: 'roboto', sans-serif;
-    background-color: var(--accent-text-color);
+    color: $main-color;
+    font-family: $main-fonts;
+    background-color: $white-color;
 }
 
 a {

@@ -1,7 +1,7 @@
 .page-footer {
     padding-top: 60px;
     padding-bottom: 60px;
-    background-color: var(--primary-bg-color);
+    background-color: $bg-color;
 }
 
 .footer {
@@ -22,7 +22,7 @@
     line-height: 1.2;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--accent-text-color);
+    color: $white-color;
 }
 
 .form-spam {
@@ -35,12 +35,12 @@
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 16px;
-    color: var(--accent-text-color);
+    color: $white-color;
 
     outline: none;
     background: transparent;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border: 1px solid $white-opacity-input-color;
+    filter: drop-shadow(0px 4px 4px $box-shadow-btn);
     border-radius: 4px;
 
     &::placeholder {
@@ -49,6 +49,6 @@
                 line-height: 1.3;
                 letter-spacing: 0.03em;
             
-                color: rgba(255, 255, 255, 0.6);
+                color: $white-opacity-color;
     }
 }
