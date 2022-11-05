@@ -20,8 +20,7 @@
 
 
 .subscribe-set__item {
-    width: 44px;
-    height: 44px;
+   @include size(44px);
 }
 
 .subscribe-set__link {
@@ -51,8 +50,7 @@
 
 
 .team-contact__item {
-    width: 44px;
-    height: 44px;
+    @include size(44px);
 }
 
 .team-contact__link {
