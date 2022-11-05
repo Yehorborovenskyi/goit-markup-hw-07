@@ -766,7 +766,7 @@ ul {
   margin-right: 30px;
 }
 
-.main-skill__meta {
+.main-skill__icon {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -781,11 +781,6 @@ ul {
   margin-bottom: 30px;
   background: rgb(245, 244, 250);
   border-radius: 4px;
-}
-
-.main-skill__icon {
-  width: 270px;
-  height: 120px;
 }
 
 .main-skill__caption {
