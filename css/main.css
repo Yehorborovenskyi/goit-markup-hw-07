@@ -416,15 +416,6 @@ ul {
   border-bottom: 1px solid rgba(238, 204, 238, 0.8);
 }
 
-.header-flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
 .main-logo__link {
   color: rgb(33, 150, 243);
   font-family: "Raleway", sans-serif;
@@ -440,6 +431,15 @@ ul {
 
 .main-logo__footer {
   color: rgb(255, 255, 255);
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .site-nav {
